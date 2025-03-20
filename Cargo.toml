@@ -1,0 +1,10 @@
+[workspace]
+members = ["rec-partial-macros"]
+
+[package]
+name = "rec-partial"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rec-partial-macros.path = "rec-partial-macros"
